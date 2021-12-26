@@ -22,6 +22,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		<pluginRepositories>
+                        <pluginRepository>
+                        <id>spring-snapshots</id>
+                        <url>https://repo.spring.io/snapshot</url>
+                </pluginRepository>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
